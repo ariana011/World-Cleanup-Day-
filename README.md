@@ -6,7 +6,6 @@ Created through **CodePath Web Development 101** using **HTML, CSS, and JavaScri
 ## 🌟 Features
 - **Responsive Design** – Works seamlessly on desktop, tablet, and mobile devices.
 - **Interactive Animations** – Engaging visuals using CSS transitions and JavaScript effects.
-- **Environmental Impact Tracking** – Showcases participation data and cleanup results.
 - **Community Engagement** – Encourages users to join and spread awareness.
 
 ## 🛠️ Technologies Used
@@ -23,7 +22,7 @@ Created through **CodePath Web Development 101** using **HTML, CSS, and JavaScri
 - Contributed to the collection of **1,000+ pounds of waste**.
 
 ## 🚀 Live Demo
-[View the Live Site](https://ariana011.github.io/world-cleanup-day-website/)  
+[View the Live Site]([https://ariana011.github.io/world-cleanup-day-website/](https://basil-crashing-computer-463.vscodeedu.app/?name=Alina&email=nai101%40gmail.com&country=Italy#toggledarkmode))  
 
 ## 📸 Screenshots
 *(Add screenshots of your site here to showcase design and features)*
