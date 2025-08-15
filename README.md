@@ -22,7 +22,7 @@ Created through **CodePath Web Development 101** using **HTML, CSS, and JavaScri
 - Contributed to the collection of **1,000+ pounds of waste**.
 
 ## 🚀 Live Demo
-[View the Live Site]([https://ariana011.github.io/world-cleanup-day-website/](https://basil-crashing-computer-463.vscodeedu.app/?name=Alina&email=nai101%40gmail.com&country=Italy#toggledarkmode))  
+[View the Live Site](https://vscodeedu.com/Tq5soFEEKO4bRd09zeoz)  
 
 ## 📸 Screenshots
 *(Add screenshots of your site here to showcase design and features)*
