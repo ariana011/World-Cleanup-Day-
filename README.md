@@ -24,8 +24,5 @@ Created through **CodePath Web Development 101** using **HTML, CSS, and JavaScri
 ## 🚀 Live Demo
 [View the Live Site](https://basil-crashing-computer-463.vscodeedu.app)  
 
-## 📸 Screenshots
-*(Add screenshots of your site here to showcase design and features)*
-
 ## 📜 License
 This project is open-source and available under the [MIT License](LICENSE).
