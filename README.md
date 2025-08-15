@@ -22,7 +22,7 @@ Created through **CodePath Web Development 101** using **HTML, CSS, and JavaScri
 - Contributed to the collection of **1,000+ pounds of waste**.
 
 ## 🚀 Live Demo
-[View the Live Site](https://vscodeedu.com/Tq5soFEEKO4bRd09zeoz)  
+[View the Live Site](https://basil-crashing-computer-463.vscodeedu.app)  
 
 ## 📸 Screenshots
 *(Add screenshots of your site here to showcase design and features)*
