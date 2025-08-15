@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>World Cleanup Day</title>
+        <link rel="icon" href="./img/web logo cleanup day.png" />
+        <link rel="stylesheet" href="styles.css">
+
+        <!--When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 2 (STRETCH FEATURE) (favicon)
+        - [ ] Any time after
+        -->
+        <style>
+            h1{
+                background-color: #B4C8E0;
+                font-family: playfair;
+                font-size: 48px;
+            }
+            
+            button {
+                font-family: fredoka;
+                background: linear linear-gradient(135deg,#00B4DB,#0083b0);
+                color: white;
+                padding: 14px 28px;
+                font-size: 18px;
+                border: none;
+                border-radius: 50px;
+                box-shadow: 0 8px 15px rgba(0, 128, 176, 0.2);
+                cursor: pointer;
+                transition: all 0.3s ease;
+                letter-spacing: 1px;
+            }
+    
+
+        </style>
+    </head>
+    
+    <body>
+
+    
+<!-- navbar
+
+Purpose:
+- Navigation bar that allows users to jump to different sections of the webpage
+- Also holds buttons for user settings (dark mode, reduce motion)
+
+When To Modify:
+- [ ] Project 4 (REQUIRED FEATURE)
+- [ ] Project 5 (REQUIRED FEATURE) 
+- [ ] Project 8 (STRETCH FEATURE) 
+- [ ] Any time between / after
+-->
+
+<div class="navbar">
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="https://www.worldcleanupday.org/countries">Schedule</a></li>
+        <li><a href="https://www.worldcleanupday.org/global-projects">Global Projects</a></li>
+        <li><a href="#toggledarkmode" id="theme-button">Toggle Dark Mode</a></li>
+        <li><a href="#reducemotion" id="reduce-motion-button">Reduce Motion</a></li>
+    </ul>
+</div>
+
+        <!-- headings
+
+        Purpose:
+        - Main header section of the webpage
+        - Contains the title, subtitle, image, and key buttons for the webpage
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 3 (REQUIRED FEATURE) 
+        - [ ] Project 4 (REQUIRED FEATURE) 
+        - [ ] Any time after
+        -->
+    <div class="header-container" id="home">
+  <div class="logo-wrapper">
+    <img id="header-img" src="./img/web logo cleanup day.png" alt="World Cleanup Day Logo" />
+  </div>
+
+  <div class="content-wrapper">
+    <h1 class="main-title">World Cleanup Day</h1>
+    <h2 class="main-subtitle">Uniting People to Clean the Planet – One City at a Time</h2>
+
+    <div class="header-item">
+      <a href="https://www.worldcleanupday.org/prizes" class="header-button" target="_blank">Prizes</a>
+      <a href="https://www.worldcleanupday.org/get-involved" class="header-button" target="_blank">Get Involved</a>
+      <a href="https://www.worldcleanupday.org/donate" class="header-button" target="_blank">Donate</a>
+    </div>
+  </div>
+</div>
+
+        
+        <!-- about
+
+        Purpose:
+        - Section for general info about the event
+        - Contains a video, description, and key points about the event
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 2 (STRETCH FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <h2 id="about" class="header">About the Event</h2>
+        <iframe id="main-video"
+  width="560" 
+  height="315" 
+  src="https://www.youtube.com/embed/0Adkxocw5yw?si=h_uTlyaRshp-BhvL" 
+  title="YouTube video player" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  referrerpolicy="strict-origin-when-cross-origin" 
+  allowfullscreen>
+</iframe>
+
+        <p>World Cleanup Day is a global environmental movement that unites millions of volunteers across more than 190 countries to clean up litter and mismanaged waste from streets, rivers, beaches, and forests. Held annually in September, the event raises awareness about pollution and encourages communities to work together for a cleaner, healthier planet.</p>
+        <p>World Cleanup Day — One Day. One Planet. One Goal: A Cleaner World.</p>
+
+        <h3>What to Expect</h3>
+        <h4>Get ready for a day of community, impact and fun!</h4>
+        <ul>
+            <li> <b>Volunteer Cleanup Crews:</b> <i>Join local teams to pick up litter in parks, streets, and neighborhoods.</i></li>
+            <li> <b>Educational Booths and Speakers:</b> <i>Learn about sustainability, recycling, and how small actions make a big difference.</i></li>
+            <li> <b>Family friendly activites:</b> <i>Enjoy eco-games, art stations, and food trucks — fun for all ages!</i></li>
+        </ul>
+
+        <!-- schedule
+
+        Purpose:
+        - Section for specific info about the event's schedule
+        - Contains images and descriptions of each activity
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <h2 id="schedule">Event Schedule</h2>
+
+<div class="schedule-container">
+  <div class="schedule-item">
+    <img src="./img/world cleanup day group photo.png" alt="Group photo" height="250" width="350" />
+    <h3>Event Activity 1</h3>
+    <p>World Cleanup Day engages 180 different countries!</p>
+  </div>
+
+  <div class="schedule-item">
+    <img src="./img/world cleanup day graph.png" alt="Graph" height="250" width="350" />
+    <h3>Event Activity 2</h3>
+    <p>World Cleanup Days 2018–2024</p>
+  </div>
+
+  <div class="schedule-item">
+    <img src="./img/world cleanup day.jpeg" alt="Community cleanup" height="250" width="350"/>
+    <h3>Event Activity 3</h3>
+    <p>Communities gathering together to help clean up our planet!</p>
+  </div>
+</div>
+
+        <!-- rsvp
+
+Purpose:
+- Section for users to sign up for the event
+- Contains a form for users to input their information, 
+and a list of other users who have signed up
+
+When To Modify:
+- [ ] Project 6 (REQUIRED FEATURE) 
+- [ ] Project 6 (STRETCH FEATURE) 
+- [ ] Any time after
+--> 
+<div id="rsvp">
+    <h2>RSVP</h2> 
+    <div class="rsvp-container">
+        <div class="rsvp-para">
+            <!-- info goes here -->
+             <p>If you've ever wanted to wear gloves and look heroic doing it — this is your moment. 💪🧽
+Join us in making the world a cleaner, greener place, one piece of litter at a time.
+Why join us? Because change starts with people who care — and we think you do. 🌱💙</p>
+        </div>
+        <div class="rsvp-participants">
+            <p>🌟 Jannelly from USA has RSVP'd.</p>
+            <p>🌟 Diego from Mexico has RSVP'd.</p>
+            <p>🌟 Yunseo from South Korea has RSVP'd.</p>
+            <p id="rsvp-count">🌏 3 people have RSVP'd to this event!</p>
+        </div>
+    </div>
+
+    <!--- Sign RSVP Form --->
+    <form id="rsvp-form">
+        <label for="name">Name:</label>
+        <input id="name" type="text" name="name" required />
+
+        <label for="email">Email:</label>
+        <input id="email" type="email" name="email" required />
+
+        <label for="country">Home Country:</label>
+        <input id="country" type="text" name="country" required />
+
+    <button id="rsvp-button" type="submit">Submit RSVP</button>
+</form>
+    
+</div>
+
+        <!-- success modal
+
+Purpose:
+- Modal that appears when a user successfully signs up for the event
+- Contains a personalized message and image
+
+When To Modify:
+- [ ] Project 9 (REQUIRED FEATURE)
+- [ ] Project 9 (STRETCH FEATURE) 
+- [ ] Any time after
+--> 
+
+<div id="success-modal" class="modal">
+    <div class="modal-container">
+        <div id="modal-item">
+            <p id="modal-text">Text</p>
+            <button id="close-modal-button" class="modal-close-btn">Close</button>
+        </div>
+        <div id="modal-item">
+            <img src="./img/starryplanet.png" id="modal-img" alt="planet">
+        </div>
+    </div>
+</div>
+
+
+
+        <!-- links
+
+        Purpose:
+        - Links to other resources related to the event
+
+        When To Modify:
+        - [ ] Project 2 (STRETCH FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <h2 id="links">Links</h2>
+<p>Read more about World Cleanup Day!</p>
+        <!-- This <a> block is one link.  Copy and paste all 6 lines to create another link. -->
+        <a class="block" href="https://www.earthday.org/campaign/worldcleanupday/">
+            <article>
+                <h3>Read about National and World Cleanup Day</h3>
+                <p>Learn about the history, stories, and how you can get involved!</p>
+            </article>
+        </a>
+
+         <a class="block" href="https://www.un.org/en/observances/cleanup-day">
+            <article>
+                <h3>World Cleanup Day 2024: Arctic Cities and Marine Litter</h3>
+                <p>Learn about the inaugural World Cleanup Day in Tromsø, Norway, themed “Arctic Cities and Marine Litter,” highlights the need for innovative, community-driven waste management solutions to protect the fragile Arctic ecosystem.</p>
+            </article>
+        </a>
+            
+        <!-- footer [PLACEHOLDER] [ADDED IN UNIT 3] -->
+         <div class="footer">
+            <a href="https://www.nationalcleanupday.org/en/contact">Contact Us</a>
+            <a href="https://www.worldcleanupday.us/partnership">Our Partners</a>
+        </div>
+        <!-- script [PLACEHOLDER] [ADDED IN UNIT 5] -->
+        <script src="index.js"></script>
+    </body>
+</html>
