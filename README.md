@@ -1,6 +1,6 @@
 # World Cleanup Day Website 🌍
 
-A responsive and interactive website built to promote **World Cleanup Day**, encouraging global participation in environmental cleanup efforts.  
+A responsive and interactive website built to promote **World Cleanup Day**, encouraging global participations in environmental cleanup efforts.  
 Created through **CodePath Web Development 101** using **HTML, CSS, and JavaScript**.
 
 ## 🌟 Features
